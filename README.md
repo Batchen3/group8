@@ -1,4 +1,10 @@
-# group8
+# Batch scripting
+
+This repository contains the Veteran bash project. The project contains 6 exercises.
+The project was done as a team.
+Git strategy is: Feature Branching
+The merger strategy is: rebase
+
 
 Useage to run the project:
 
