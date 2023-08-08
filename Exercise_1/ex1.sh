@@ -1,6 +1,6 @@
 #!/bin/bash
 
-<<<<<<< HEAD
+
 # Validate input
 if [ $# -lt 2 ]; then
     echo "Usage: main.sh -1 <target_directory> <image_url1> [<image_url2> ...]"
@@ -24,11 +24,4 @@ archive_name="images_$current_time.zip"
 zip -q -j "$archive_name" "$target_directory"/*
 
 echo "Archive created: $archive_name"
-=======
-if [ $# -lt 2 ]; then
-  echo 
-  exit 1
-fi
 
-
->>>>>>> 1d8d201 (start)
