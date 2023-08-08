@@ -5,8 +5,13 @@ string_number=("one" "two" "three" "four" "five" "six" "seven" "eight" "nine" "t
 result=""
 flag=1
 right_input=1
-for arg in "$@";
-do
+
+if [ $# -eq 0 ]; then
+    echo "Please provide arguments."
+    exit 1
+fi
+
+for arg in "$@"; do
 	if [[ "$(($arg-1))" =~ ^[0-9]+$ ]]; then
 		if [[ $arg -ge 1 && $arg -le 10 ]]; then
 			((array[$(($arg-1))]++))
