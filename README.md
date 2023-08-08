@@ -22,7 +22,7 @@ Useage to run the project:
 
 <ins>To run exercise 4:</ins>
 
-./veteran.sh -4  <optinal: num1> 
+./veteran.sh -4  <optinal: string> 
 
 <ins>To run exercise 5:</ins>
 
