@@ -18,7 +18,7 @@ Useage to run the project:
 
 <ins>To run exercise 3:</ins>
 
-./veteran.sh -3  <num1> [<num2> ...]> 
+./veteran.sh -3 <number_1> [<number_2> ...]> 
 
 <ins>To run exercise 4:</ins>
 
