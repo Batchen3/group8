@@ -18,3 +18,8 @@ for url in "${@:2}"; do
 done
 
 # Create archive
+current_time=$(date "+%Y%m%d%H%M%S")
+archive_name="images_$current_time.zip"
+zip -q -j "$archive_name" "$target_directory"/*
+
+echo "Archive created: $archive_name"
