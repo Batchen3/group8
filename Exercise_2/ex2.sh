@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ $# -lt 2 ]; then
-  echo "Not enough arguments received"
+  echo "Enter: ./my_script.sh <name of file> <desired separator>"
   exit 1
 fi
 
